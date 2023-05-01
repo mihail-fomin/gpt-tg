@@ -4,7 +4,6 @@ const message = require('telegraf/filters');
 const code = require('telegraf/format')
 const config = require('config')
 const ogg = require('telegraf/format')
-const code = require('telegraf/format')
 
 import { ogg } from './ogg.js'
 import { openai } from './openai.js'
