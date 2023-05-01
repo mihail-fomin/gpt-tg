@@ -4,6 +4,7 @@ import { code } from 'telegraf/format'
 import config from 'config'
 import { ogg } from './ogg.js'
 import { openai } from './openai.js'
+import "core-js/stable"
 
 console.log(config.get('TEST_ENV'));
 
