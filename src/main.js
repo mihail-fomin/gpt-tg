@@ -1,4 +1,5 @@
-import { Telegraf, session } from 'telegraf'
+const Telegraf = require('telegraf');
+const session = require('telegraf/session');
 import { message } from 'telegraf/filters'
 import { code } from 'telegraf/format'
 import config from 'config'
