@@ -1,5 +1,5 @@
 .idea
 node_modules/
-config/default.json
-config/production.json
+cofig/default.json
+cofig/production.json
 .vscode
