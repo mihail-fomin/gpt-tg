@@ -1,8 +1,11 @@
 const Telegraf = require('telegraf');
 const session = require('telegraf/session');
-import { message } from 'telegraf/filters'
-import { code } from 'telegraf/format'
-import config from 'config'
+const message = require('telegraf/filters');
+const code = require('telegraf/format')
+const config = require('config')
+const ogg = require('telegraf/format')
+const code = require('telegraf/format')
+
 import { ogg } from './ogg.js'
 import { openai } from './openai.js'
 
