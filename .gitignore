@@ -1,1 +1,5 @@
+.idea
 node_modules/
+cofig/default.json
+cofig/production.json
+.vscode
