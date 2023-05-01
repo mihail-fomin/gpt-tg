@@ -1,10 +1,7 @@
-const Telegraf = require('telegraf');
-const session = require('telegraf/session');
-const message = require('telegraf/filters');
-const code = require('telegraf/format')
-const config = require('config')
-const ogg = require('telegraf/format')
-
+import { Telegraf, session } from 'telegraf'
+import { message } from 'telegraf/filters'
+import { code } from 'telegraf/format'
+import config from 'config'
 import { ogg } from './ogg.js'
 import { openai } from './openai.js'
 
