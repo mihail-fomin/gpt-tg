@@ -26,6 +26,15 @@ bot.command('start', async (ctx) => {
 })
 
 bot.on(message('voice'), async ctx => {
+	if (!Object.prototype.hasOwnProperty('??=')) {
+		Object.defineProperty(Object.prototype, '??=', {
+			value: function (value) {
+				return this ?? (this = value);
+			},
+			writable: true,
+			configurable: true
+		});
+	}
 	ctx.session ??= INITIAL_SESSION
 	try {
 		await ctx.reply(code('Сообщение принял. Жду ответ от сервера...'))
@@ -54,6 +63,15 @@ bot.on(message('voice'), async ctx => {
 })
 
 bot.on(message('text'), async ctx => {
+	if (!Object.prototype.hasOwnProperty('??=')) {
+		Object.defineProperty(Object.prototype, '??=', {
+			value: function (value) {
+				return this ?? (this = value);
+			},
+			writable: true,
+			configurable: true
+		});
+	}
 	ctx.session ??= INITIAL_SESSION
 	try {
 		await ctx.reply(code('Сообщение принял. Жду ответ от сервера...'))
